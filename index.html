@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="favicon.ico.png">
+    <title>Meu Portifólio</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@700&display=swap');
+
+    body {
+        background: linear-gradient(236.85deg, #0057da 27.26%, #8dbaff 96.03%);
+        font-family: 'Gemunu Libre', sans-serif;
+    }
+
+    .countainer {
+        background: #ECF4ff;
+        color: #1C1C1C;
+        margin: 64px;
+        border-radius: 30px;
+        box-shadow: 2px 2px 4px 4px #4b535e;
+        padding: 64px;
+    }
+
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .perfil {
+        background: linear-gradient(236.85deg, #0057da 27.26%, #8dbaff 96.03%);
+        display: flex;
+        margin-top: 32px;
+        padding: 32px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 4px 4px rgba(16, 16, 16, 0.42);
+    }
+
+    .perfil-foto {
+        border-radius: 460px;
+        max-height: 150px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .titulo {
+        margin-left: 20px ;
+    }
+
+    .titulo h1 {
+        font-weight: 700;
+        font-size: 36px ;
+    }
+
+    .titulo h3 {
+        font-weight: 400;
+        font-size: 24px ;
+    }
+
+    .tema button {
+        align-self: flex-end;
+        font-size: 24px;
+        font-weight: 400;
+        padding: 8px 16px;
+        background: #ECF4ff;
+        border-radius: 100px;
+        border: 2px solid #1C1C1C
+
+    }
+
+    .projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(230.65deg, #2d8cf8 27.49%, #c0dcff 83.19%);
+        margin-top: 32px;
+        padding: 32px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 4px 4px rgba(16, 16, 16, 0.42);
+    }
+
+    .projetos-titulo {
+        list-style: none;
+        font-weight: 700;
+        font-size: 36px;
+
+    }
+
+    .projetos-item {
+        list-style-type: none;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 42px;
+    }
+
+    .projetos-item a {
+        color: #1C1C1C;
+        text-decoration: none;
+    }
+
+    .dark {
+        background: linear-gradient(236.85deg, #375886 27.27%, #6887a9 96.03%);
+
+    }
+
+    .dark .countainer  {
+        background: #333439;
+        color: #f6f6f6;
+    }
+
+    .dark .perfil {
+        background: linear-gradient(236.85deg, #375886 27.27%, #6887a9 96.03%);
+    }
+
+    .dark .projetos {
+        color: #1c1c1c
+    }
+
+    .dark .tema button {
+        background: #1C1C1C;
+        color: #f6f6f6;
+        border: 2px solid #F7F7F7
+    }
+
+</style>
+<body>
+    <div class="countainer">
+    <header class="cabecalho">
+        <div class="perfil">
+        <img class="perfil-foto" src="https://github.com/ViniciusSchitz.png" alt="">
+        <div class="titulo">
+            <h1> Vinicius Schitz </h1>
+            <h3> Estudante de Golang, JavaScript e Futuro Engenheiro de Software #imersaodev </h3>
+        </div>
+        </div>
+        <div class="tema">
+            <button onclick="mudaTema()">Alterar Tema</button>
+        </div>
+    </header>
+    <main class="projetos">
+        <ul class="projetos-titulo">Projetos</ul>
+        <li class="projetos-item"><p> ☝ Primeiro Projeto com JavaScript </p></li> <br>
+
+        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="PojjLXy" data-user="Vinicius-Schitz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+            <span>See the Pen <a href="https://codepen.io/Vinicius-Schitz/pen/PojjLXy">
+            Calculadora de média</a> by Vinicius Schitz (<a href="https://codepen.io/Vinicius-Schitz">@Vinicius-Schitz</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+        <li class="projetos-item"><P> 🔢 Conversor de Moedas </p></li>
+
+            <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="qBjPYEq" data-user="Vinicius-Schitz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/Vinicius-Schitz/pen/qBjPYEq">
+                Conversor de moedas </a> by Vinicius Schitz (<a href="https://codepen.io/Vinicius-Schitz">@Vinicius-Schitz</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+        <li class="projetos-item"><p> 🖥️ AluraFlix </p></li>
+
+        <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="KKqQRdo" data-user="Vinicius-Schitz" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+            <span>See the Pen <a href="https://codepen.io/Vinicius-Schitz/pen/KKqQRdo">
+            Aluraflix - dia 5</a> by Vinicius Schitz (<a href="https://codepen.io/Vinicius-Schitz">@Vinicius-Schitz</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+    </main>
+    </div>
+    <script>
+        function mudaTema() {
+            document.body.classList.toggle("dark")
+        }
+    </script>
+</body>
+</html>
